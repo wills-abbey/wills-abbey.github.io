@@ -87,26 +87,26 @@
 
     <div class="container p-3 mb-4">
         <div class="form-container p-4 border border-2"> 
-            <form>
+            <form method="post" action="emailIssue.php">
                 <div class="mb-4">
                     <label for="inputFirstName1" class="form-label">First Name</label>
-                    <input type="password" class="form-control" id="inputFirstName1">
+                    <input type="text" class="form-control" name="inputFirstName1" id="inputFirstName1">
                 </div>
                 <div class="mb-4">
                     <label for="inputLastName1" class="form-label">Last Name</label>
-                    <input type="password" class="form-control" id="inputLastName1">
+                    <input type="text" class="form-control" name="inputLastName1" id="inputLastName1">
                 </div>
                 <div class="mb-4">
                     <label for="inputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
+                    <input type="email" class="form-control" name="inputEmail1" id="inputEmail1" aria-describedby="emailHelp">
                 </div>
                 <div class="mb-4">
                     <label for="textArea1" class="form-label">Description of issue:</label>
-                    <textarea class="form-control" id="textArea1" rows="3"></textarea>
+                    <textarea class="form-control" name="textArea1" id="textArea1" rows="3"></textarea>
                 </div>
                 <div class="mb-4">
                     <label for="formFileMultiple" class="form-label">Multiple files input example</label>
-                    <input class="form-control" type="file" id="formFileMultiple" multiple>
+                    <input class="form-control" type="file" name="formFileMultiple" id="formFileMultiple" multiple>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
