@@ -87,7 +87,7 @@
 
     <div class="container p-3 mb-4">
         <div class="form-container p-4 border border-2"> 
-            <form method="post" action="emailIssue.php">
+            <form method="post" action="emailIssue.php" enctype="multipart/form-data">
                 <div class="mb-4">
                     <label for="inputFirstName1" class="form-label">First Name</label>
                     <input type="text" class="form-control" name="inputFirstName1" id="inputFirstName1">
@@ -104,10 +104,11 @@
                     <label for="textArea1" class="form-label">Description of issue:</label>
                     <textarea class="form-control" name="textArea1" id="textArea1" rows="3"></textarea>
                 </div>
-                <div class="mb-4">
+                <!--<div class="mb-4">
                     <label for="formFileMultiple" class="form-label">Multiple files input example</label>
                     <input class="form-control" type="file" name="formFileMultiple" id="formFileMultiple" multiple>
                 </div>
+                -->
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>
         </div>

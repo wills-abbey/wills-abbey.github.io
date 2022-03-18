@@ -9,7 +9,11 @@ if($_POST["submit"]) {
 
     $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
 
-    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+    // Always set content-type when sending HTML email
+    $headers = "MIME-Version: 1.0" . "\r\n";
+    $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+
+    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>,$headers");
 
     $thankYou="<p>Thank you! Your message has been sent.</p>";
 }
