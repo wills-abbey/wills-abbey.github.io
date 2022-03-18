@@ -1,7 +1,7 @@
 <?php
 
 if($_POST["submit"]) {
-    $recipient="willsabbey4@gmail.com";
+    $recipient="wills.abbey@coxautoinc.com";
     $subject="572 BEB S6 Helpdesk Ticket";
     $sender=$_POST["inputFirstName1"];
     $senderEmail=$_POST["inputEmail1"];
