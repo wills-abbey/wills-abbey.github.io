@@ -16,6 +16,8 @@ if($_POST["submit"]) {
     mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>",$headers);
 
     $thankYou="<p>Thank you! Your message has been sent.</p>";
+
+    echo "Hello"
 }
 
 ?>
