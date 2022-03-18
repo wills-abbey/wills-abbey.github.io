@@ -13,7 +13,7 @@ if($_POST["submit"]) {
     $headers = "MIME-Version: 1.0" . "\r\n";
     $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
-    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>,$headers");
+    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>",$headers);
 
     $thankYou="<p>Thank you! Your message has been sent.</p>";
 }
