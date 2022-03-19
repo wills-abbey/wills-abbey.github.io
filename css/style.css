@@ -14,6 +14,13 @@
     }
 }
 
+/* Width that goes to mobile nav */
+@media (max-width: 991.8px) {
+    .social-nav-links{
+        display:none;
+    }
+}
+
 #signalInsignia {
    max-height: 450px;
    width: auto;
