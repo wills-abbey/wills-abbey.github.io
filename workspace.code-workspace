@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../git/cms-sites/htdocs/sites"
+		},
+		{
+			"path": "../../git/third-party-services"
+		},
+		{
+			"path": "."
+		}
+	]
+}
