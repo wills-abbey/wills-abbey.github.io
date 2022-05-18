@@ -3,15 +3,20 @@
         margin-right: 15px;
         margin-left: 5px;
     }
-}
-
-@media (max-width: 767.98px) {
     p.mobile-text {
         font-size: .7em;
     }
     h1.mobile-text {
         font-size: 1.5rem;
     }
+    .container.issue {
+        max-width: 750px;
+    }
+}
+
+.container.issue {
+    transition: ease-in-out;
+    transition-duration: .5s;
 }
 
 /* Width that goes to mobile nav */
