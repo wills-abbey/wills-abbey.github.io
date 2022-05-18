@@ -3,14 +3,17 @@
         margin-right: 15px;
         margin-left: 5px;
     }
+    .container.issue {
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 767.98px) {
     p.mobile-text {
         font-size: .7em;
     }
     h1.mobile-text {
         font-size: 1.5rem;
-    }
-    .container.issue {
-        max-width: 750px;
     }
 }
 
@@ -55,12 +58,13 @@ body {
     margin-bottom: 5rem !important;
 }
 
-/* 
+
 
 .sigContain {
     background:transparent; 
     overflow:hidden; 
-    width:100%; height:100vh; 
+    width:100%; height:100vh;
+    z-index: -1;
   }
   .sigContain, .signal {
     overflow: hidden;
@@ -68,7 +72,7 @@ body {
     top: 0;  bottom: 0;  left: 0;  right: 0;
   }
   .signal {
-      border:2px solid #dba800;
+      border:2px solid #000000;
       border-radius:300px;
       top:200px; width:400px; height:400px;
       left:calc(50% - 200px);
@@ -88,5 +92,3 @@ body {
       80% { opacity:0.1;}
       100% { transform:scale(5); opacity:0;}
   }
-
-  */
