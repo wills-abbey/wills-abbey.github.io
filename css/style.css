@@ -72,7 +72,7 @@ body {
     top: 0;  bottom: 0;  left: 0;  right: 0;
   }
   .signal {
-      border:2px solid #000000;
+      border:2px solid #e2e2e2;
       border-radius:300px;
       top:200px; width:400px; height:400px;
       left:calc(50% - 200px);
@@ -81,9 +81,9 @@ body {
       position:absolute;
   }
   .s1 {animation: pulsate 8s ease-out 0s  infinite;  }
-  .s2 {animation: pulsate 8s ease-out 2s  infinite;}
-  .s3 {animation: pulsate 8s ease-out 4s  infinite;}
-  .s4 {animation: pulsate 8s ease-out 6s  infinite;}
+  .s2 {animation: pulsate 8s ease-out 4s  infinite;}
+  .s3 {animation: pulsate 8s ease-out 8s  infinite;}
+  .s4 {animation: pulsate 8s ease-out 12s  infinite;}
    
   @keyframes pulsate {
       0% { transform:scale(0.1); opacity: 0.0;}
